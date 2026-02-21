@@ -1,6 +1,10 @@
 /*---font---*/
 
 /*--div---*/
+div#content_out{
+    display: flex;
+    justify-content: center;
+}
 div#calc {
     display: grid;
     grid-template-columns: repeat(4, max-content);
