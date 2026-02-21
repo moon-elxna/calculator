@@ -1,10 +1,48 @@
 /*---font---*/
 
 /*--div---*/
+div#calc {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-template-rows: repeat(4, max-content);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+}
+
+div#div1 { grid-area: 1 / 1 / 2 / 2; }
+div#div2 { grid-area: 1 / 2 / 2 / 3; }
+div#div3 { grid-area: 1 / 3 / 2 / 4; }
+div#div4 { grid-area: 1 / 4 / 2 / 5; }
+div#div5 { grid-area: 2 / 1 / 3 / 2; }
+div#div6 { grid-area: 2 / 2 / 3 / 3; }
+div#div7 { grid-area: 2 / 3 / 3 / 4; }
+div#div8 { grid-area: 2 / 4 / 3 / 5; }
+div#div9 { grid-area: 3 / 1 / 4 / 2; }
+div#div10 { grid-area: 3 / 2 / 4 / 3; }
+div#div11 { grid-area: 3 / 3 / 4 / 4; }
+div#div12 { grid-area: 3 / 4 / 4 / 5; }
+div#div13 { grid-area: 4 / 1 / 5 / 2; }
+div#div14 { grid-area: 4 / 2 / 5 / 3; }
+div#div15 { grid-area: 4 / 3 / 5 / 4; }
+div#div16 { grid-area: 4 / 4 / 5 / 5; }
+
+div.calc_btn{
+    margin: 0px;
+    padding: 0px;
+}
 
 /*---img---*/
-
+img.calc_btn{
+    width: 72px;
+}
 /*---btn---*/
+button.calc_btn{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
 
 /*---media---*/
 @media(max-width: 700px){
